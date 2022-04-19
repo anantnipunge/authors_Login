@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+.wrapper{
+  height: 100vh;
+  width: 100;
+display: flex;
+background:url('https://images.pexels.com/photos/6044235/pexels-photo-6044235.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+justify-content: center;
+align-items: center;
+}
+
+.input {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 90%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  outline: none;
+  margin-bottom: 25px;
+}
+
+.form {
+  width: 400px;
+}
+.button {
+  border-radius: 4px;
+  background-color: green;
+  color: black;
+  object-position: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin-left: 5px;
+  width: 105%;
+}
+.title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 1.8em;;
+}
+
+
