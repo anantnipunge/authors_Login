@@ -8,18 +8,16 @@ const Login = () => {
 
   let navigate = useNavigate();
 
-//   const onClick = async (e) => {
-//     e.preventDefault();
-//   };
+  const onSubmit = async (e) => {
+    e.preventDefault();
+  };
 
   return (
     <>
       <div className="wrapper">
         <div className="form">
           <h1 className="title">Author Login</h1>
-          <form onClick={() => 
-                  navigate("/Navbar")
-                }>
+          <form onSubmit={handleSubmit}>
             <div>
               <input
                 type="text"
@@ -40,6 +38,7 @@ const Login = () => {
                 required
               />
               <button
+                onClick={() => navigate("/Navbar")}
                 className="button"
                 type="submit"
               >
